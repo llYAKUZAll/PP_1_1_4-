@@ -53,7 +53,7 @@ public class UserDaoJDBCImpl implements UserDao {
             }
             ex.getStackTrace();
         }
-        System.out.println("Пользователь c именем - " + name + " добавлен в базу данных.");
+            System.out.println("Пользователь c именем - " + name + " добавлен в базу данных.");
     }
 
     public void removeUserById(long id) {
